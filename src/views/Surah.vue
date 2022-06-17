@@ -19,13 +19,13 @@
         :key="index"
         class="bg-white rounded-md shadow-md border-b mx-2"
       >
-        <ul class="flex p-6">
+        <ul class="flex flex-wrap w-full p-2 lg:p-6">
           <li
-            class="flex justify-center items-center w-11 h-10 bg-amber-50 border-amber-100 mr-4 rounded-full border-2"
+            class="w-10 mr-1"
           >
-            <span class="text-lg">{{ ayat.number.inSurah }}</span>
+            <span class="flex justify-center items-center w-10 h-10 bg-amber-200 border-amber-300 mr-4 rounded-full border-2 arab text-2xl">{{ ayat.number.inSurah }}</span>
           </li>
-          <li class="w-full">
+          <li class="flex-1 w-5/6">
             <h2
               class="text-2xl flex justify-end text-right mb-4 leading-loose arab"
             >
