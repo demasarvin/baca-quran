@@ -31,7 +31,7 @@
             >
               {{ ayat.text.arab }}
             </h2>
-            <audio controls class="mb-2">
+            <audio controls class="mb-2 flex-wrap w-full">
               <source :src="ayat.audio.primary" type="audio/mpeg" />
             </audio>
             <p class="mb-2 font-medium text-emerald-700 lowercase">
